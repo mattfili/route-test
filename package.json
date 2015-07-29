@@ -1,0 +1,28 @@
+{
+  "name": "route-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/unit --recursive",
+    "test-integration": "mocha test/integration --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattfili/route-test.git"
+  },
+  "author": "Matt Fili <matthewjosephfili@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattfili/route-test/issues"
+  },
+  "homepage": "https://github.com/mattfili/route-test",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5",
+    "nodemon": "^1.4.0"
+  }
+}
