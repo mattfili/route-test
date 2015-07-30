@@ -1,3 +1,4 @@
-require('./lib/server')(1337);
+var chalk = require('chalk');
+require('./lib/challk')(1337)
 
-console.log('Server running on http://localhost:1337')
+console.log('Server running on' + chalk.red.bold.underline('http://localhost:1337'));

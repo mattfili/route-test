@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "mocha test/unit --recursive",
-    "test-integration": "mocha test/integration --recursive"
+    "test-int": "mocha test/integration --recursive",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,12 @@
   "homepage": "https://github.com/mattfili/route-test",
   "devDependencies": {
     "chai": "^3.2.0",
+    "chalk": "^1.1.0",
     "mocha": "^2.2.5",
     "nodemon": "^1.4.0"
+  },
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "request": "^2.60.0"
   }
 }
